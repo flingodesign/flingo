@@ -8,7 +8,7 @@
 
 
 
-	    $email_from = 'yourname@yourwebsite.com';
+	    $email_from = 'oscar@flingodesign.de';
 
 
 
@@ -23,7 +23,7 @@
 
 
 
-                              	  $to = "yourname@yourwebsite.com";
+                              	  $to = "oscar@flingodesign.de";
 
 
 
@@ -36,7 +36,7 @@
 
 
                               	  mail($to,$email_subject,$email_body,$headers);
-                              
+
 
 
 
