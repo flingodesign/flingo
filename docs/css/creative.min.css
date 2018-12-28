@@ -25,9 +25,9 @@ a:hover {
   text-decoration: none;
   }
 h1,h2,h3,h4,h5,h6 {
-  font-family:'Open Sans';
-  font-weight:650;
-  text-transform: uppercase;
+  font-family:'Roboto Slab';
+  font-weight:500;
+  text-transform:
   }
 .bg-primary {
   background-color:rgb(226, 226, 226)!important
