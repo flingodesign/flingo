@@ -25,12 +25,13 @@ a:hover {
   text-decoration: none;
   }
 h1,h2,h3,h4,h5,h6 {
-  font-family:'Roboto Slab';
-  font-weight:500;
+  font-family:'Montserrat';
+  font-weight:600;
   text-transform:
   }
 .bg-primary {
-  background-color:rgb(226, 226, 226)!important
+  background-color:rgb(57,57,57)!important;
+  color: #fff!important;
   }
 .bg-dark {
   background-color:#212529!important
@@ -190,9 +191,9 @@ header.masthead p {
   width:100%;
   height:100%;
   text-align:center;
-  opacity:0;
+  opacity:1;
   color:#fff;
-  background:rgba(23, 119, 130, .8);
+  background:rgba(23, 119, 130, 1);
   -webkit-transition:all .2s;
   -moz-transition:all .2s;
   transition:all .2s
@@ -216,7 +217,7 @@ header.masthead p {
   font-size:18px
   }
 .portfolio-box:hover .portfolio-box-caption {
-  opacity:1
+  opacity:0
   }
 .portfolio-box:focus {
   outline:0
@@ -272,4 +273,13 @@ header.masthead p {
   font-size: 22px;
   line-height: 180%;
   background-attachment:local;
+}
+.header-text {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+#portfolio {
+  background:rgba(23, 119, 130, 1);
 }
