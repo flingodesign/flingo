@@ -283,3 +283,9 @@ h2 {
 #portfolio {
   background:rgba(23, 119, 130, 1);
 }
+.portfolio-hover {
+  opacity: 0!important
+}
+.himg {
+  margin-left: 10px;
+}

@@ -35,7 +35,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-nav navbar-shrink" id="mainNav">
       <div class="container">
         <a href="http://flingodesign.de">
-            <img src="img/logo.png" height="60px">
+            <img src="img/logo.png" height="60px" class="himg">
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -169,7 +169,7 @@
           <div class="col-lg-4 col-sm-6">
               <a href="http://ohnetattoo.com" class="portfolio-box" target="_blank">
               <img class="img-fluid" src="img/portfolio/ohnetattoo.jpg" alt="">
-              <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption"   id="p1">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
                     Tattooentfernungsstudio
@@ -184,7 +184,7 @@
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="http://daskoerperwerk.de">
               <img class="img-fluid" src="img/portfolio/daskoerperwerk.jpg" alt="">
-              <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption"  id="p2">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
                     Praxis
@@ -199,7 +199,7 @@
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="http://eyesonfunk.com" target="_blank">
               <img class="img-fluid" src="img/portfolio/eyesonfunk.jpg" alt="">
-              <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption"  id="p3">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
                     Band
@@ -214,7 +214,7 @@
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="http://luna-jazz.de" target="_blank">
               <img class="img-fluid" src="img/portfolio/luna-jazz.jpg" alt="">
-              <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption"  id="p4">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
                     Band
@@ -229,7 +229,7 @@
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="http://spaeterschule.de" target="_blank">
               <img class="img-fluid" src="img/portfolio/schule.jpg" alt="">
-              <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption"  id="p5">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
                     Schule
@@ -244,7 +244,7 @@
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="http://basicsunverpackt.wordpress.com" target="_blank">
               <img class="img-fluid" src="img/portfolio/unverpackt.jpg" alt="">
-              <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption"  id="p6">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
                     Unverpackt-Laden
@@ -303,6 +303,35 @@
     </div>
     </footer>
   </section>
+    <!--<script>
+    var myArray = [
+  "#p1",
+  "#p2",
+  "#p3"
+];
+
+    var randomItem = myArray[Math.floor(myArray.length * Math.random())];
+
+    function randRange(data) {
+     var newTime = data[Math.floor(data.length * Math.random())];
+     return newTime;
+}
+
+function toggleSomething() {
+     var timeArray = new Array(200, 300, 250, 2000, 3000, 1000, 1500);
+
+
+     // do stuff, happens to use jQuery here (nothing else does)
+     $(randomItem).toggleClass("portfolio-hover");
+
+     clearInterval(timer);
+     timer = setInterval(toggleSomething, randRange(timeArray));
+}
+
+var timer = setInterval(toggleSomething, 1000);
+// 1000 = Initial timer when the page is first loaded
+</script>-->
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
