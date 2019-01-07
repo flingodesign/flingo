@@ -132,6 +132,16 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
     color:#2296a3
     }
+    .f1 {
+      float: left;
+      width: 45%;
+      padding: 10px;
+    }
+    .f2 {
+      float: right;
+      width: 55%;
+      padding: 10px;
+    }
   }
 header.masthead {
   padding-top:10rem;
@@ -290,5 +300,53 @@ h2 {
   margin-left: 10px;
 }
 .bg-bright {
-  background-color: #f4f4f4;
+  background-color: #f1f1f180;
+}
+.sr-icons {
+  width: 100%;
+  padding: 50px;
+}
+.horizontal-list a {
+  padding: 0px 5px 0px 5px
+}
+p {
+  font-size: 1.2em;
+}
+.text-muted {
+  font-size: 1em;
+}
+.opinion-box {
+  background-color: #2296a3;
+  color: #ffffff;
+  padding: 20px;
+  margin: 20px 0 20px 0;
+  width: 100%;
+}
+.opinion-box a {
+  color: #ffffff;
+  font-weight: bold;
+}
+.opinion {
+
+}
+.quotemarks {
+  text-align: center;
+  font-size: 2em;
+}
+.opinion-author {
+  text-align: right;
+
+}
+.author-avatar {
+  width: 45px;
+  border-radius: 50%;
+  display: inline!important;
+}
+.text-center {
+  text-align: center;
+}
+ul {
+  text-transform: uppercase;
+  font-weight: bold;
+  list-style-type: none;
 }
