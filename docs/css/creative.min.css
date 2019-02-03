@@ -184,6 +184,9 @@ header.masthead p {
   header.masthead h1 {
     font-size:4rem
     }
+	.header-text {
+		font-size: 4rem;
+	}	
   }
 .service-box {
   max-width:400px
@@ -285,7 +288,7 @@ header.masthead p {
   background-attachment:local;
 }
 .header-text {
-  font-size: 4rem;
+  font-size: ;
 }
 h2 {
   font-size: 3rem;
